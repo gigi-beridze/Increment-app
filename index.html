@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP Galaxy S5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div>
+        <button class="btn-hs" id="his-div" onclick=opens()>History</button>
+        <button style="display: none;" class="btn-hs" id="hisA-div" onclick=openA()>X</button>
+    </div>
+    <header>
+        <center>
+            <h1>People entered</h1>
+            <h1 id="count-el"></h1>
+            <button onclick=increment() class="red">Increment</button><br>
+            <button onclick=save() class="green">Save</button>
+        </center>
+    </header>
+    <div id="hid-div" style="display: none;">
+        <center>
+            <br><br>
+            <h2>Previous Entries:</h2>
+            <h1 id="save-count"></h1>
+        </center>
+    </div>
+</body>
+</html>
